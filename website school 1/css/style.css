@@ -1,0 +1,41 @@
+body {
+	background-color: #6e0000;
+}
+table {
+	font-family: #ffe369; 
+	font-weight: bold;
+	border-collapse: separate;
+	border-spacing: 4px;
+	background-color: rgba(110, 0, 0, 0.4);
+	background: #A52A2A;
+	border: 2px solid #FF0000; /* обводка */
+	border-radius: 10px; /* радиус обводки*/
+}
+*{
+	color: antiquewhite;
+	text-align: center;
+}
+th {
+	color: #FFFF00;
+}
+td {
+	background: #FFFFE0;
+	padding: #FFFFE0;
+	color: #000000;
+}
+table th, table td:first-child {
+	background: #FF0000;
+	padding: 5px 50px;
+	border: 2px, rgba(189, 195, 199, 0.05)
+}
+td.col1 { 
+	background: #FFFFFF; 
+}
+td.col2 { 
+	background: #FF6347; 
+}
+a {
+	padding: 10px;
+	text-align: #FFFFFF;
+	font-weight: bold;
+}
