@@ -1,0 +1,68 @@
+/*Стили */
+body { /*Стили для всего контента */
+	width: 90%; /*Ширина тела сайта */
+	margin-left: 5%; /*Отступ */
+	background: url(../img/fon.png) no-repeat; /*Фоновая картинка */
+	background-size: cover; /*Подгон размеов фоновой картинки */
+}
+header { /*Стили шапки сайта */
+	width: 100%;
+	height: 85px;
+}
+.menu { /*Меню сайта */
+	float: left; /*Обтекание меню другими элементами*/
+}
+.logo { /*Стили логотипа  */
+	width: 30%;
+	float: left;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+.navbar li { /*Стили елемента маркированого списка */
+	display: inline; /*Построение элементов в строку */
+	font-size: 30px; /*Размер шрифта */
+	padding: 20px;/*Отступление */
+	color: black;
+	
+ }
+
+.navbar {/* Стили меню: отступы*/
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.banner { /*Стили банера */
+	background: url(../img/group1.png) no-repeat; /*Фоновая картинка */
+	height: 400px;
+	background-size: cover;
+	opacity:.7; /*Прозрачность картинки */
+}
+.about { /*Стили надписи на бпнере */
+	width: 80%;
+	float: left;
+	font-size: 35px;
+	margin-top: 100px;
+	font-family: gabriola; /*Шрифт текста */
+	text-align: center; /*Расположение текста в блоке */
+	margin-left: 10%;
+}
+.form_group{
+	font-size: 16px;
+}
+.band_members{
+	font-size: 16px;
+}
+.discography{
+	font-size: 16px;
+}
+.img_albom {
+	float: left;
+	margin-right: 30px;
+	}
+.disc li{
+	padding-bottom: 5px;
+}
+/*Стили подвала */
+footer {
+	background-color: gray; /*Фоновая заливка футера */
+}
